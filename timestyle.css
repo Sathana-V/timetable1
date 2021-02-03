@@ -1,0 +1,183 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  color: #fff;
+}
+.left
+{
+    float:right;
+}
+p{
+    display: inline-block;
+}
+a:link, a:visited {
+  
+    color:white;
+    padding: 2% 5%;
+ font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover, a:active {
+    text-decoration: none;
+    color: white;
+  }
+  
+body{
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);;
+  background-size: 400% 400%;
+  position: relative;
+  animation: animate 7.5s ease-in-out infinite;
+  color:white;
+}
+
+
+
+@keyframes animate{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+
+  button:hover
+  { 
+    box-shadow: 0px 15px 20px rgba(30, 36, 33, 0.4);
+    color: #fff;
+    transform: translateY(-5px);
+    text-decoration: none;
+      border:2px solid white;
+     
+  }
+ button
+ {
+     border:transparent;
+     box-shadow: 0px 15px 20px rgba(30, 36, 33, 0.4);
+     border-radius: 25px;
+     transition: all 0.3s ease 0s;
+     width:65%;
+ }
+td:hover{
+   
+    text-decoration: none;
+}
+.linka:hover,active,visited{
+    color:white;
+        text-decoration: none;
+        }
+
+td
+{
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+th{
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+.days
+{
+   color:white;
+   align-items: center;
+   text-align: center;
+   font-weight: bolder;
+  
+  
+}
+.python
+{
+    background-color: aqua;
+    border-radius: 25px;
+}
+   
+.mp
+{
+    background-color:#3f51b1;
+    border-radius: 25px;
+}
+.daa
+{
+    background-color:orange;
+    border-radius: 25px;
+}
+.dbms
+{
+    background-color: darkkhaki;
+    border-radius: 25px;
+}
+.kong
+{
+    font-size:45px;
+}
+.ps
+{
+    background-color:hotpink;
+    border-radius: 25px;
+}
+.os
+{
+    background-color: lawngreen;
+    border-radius: 25px;
+}
+.prst
+{
+    background-color:tomato;
+    border-radius: 25px;
+}
+.kong
+{
+    align-content: center;
+    text-align:center;
+}
+@media only screen and (max-width: 900px) {
+    a:link, a:visited {
+       font-weight: bold;
+       color:white;
+       font-size: 49%;
+   }
+   p
+   {
+       display:block;
+      
+   }
+   .left{
+    float:left;
+   }
+   button
+ {
+    border:transparent;
+    box-shadow: 0px 15px 20px rgba(30, 36, 33, 0.4);
+    border-radius: 2px;
+    transition: all 0.3s ease 0s;
+    width:104%;
+ }
+ h1{
+    font-size: small;
+ }
+ 
+ .time
+ {
+    font-size:8px;
+ }
+ .days{
+    font-size:8px;
+ }
+ .kong
+      {
+          font-size:15px;
+      }
+  }
+  
