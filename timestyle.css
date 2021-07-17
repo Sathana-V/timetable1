@@ -102,7 +102,61 @@ th{
     background-color: aqua;
     border-radius: 25px;
 }
+  .TOC
+{
+    background-color: aqua;
+    border-radius: 25px;
+}
    
+.AJP
+{
+    background-color:#3f51b1;
+    border-radius: 25px;
+}
+.WT
+{
+    background-color:orange;
+    border-radius: 25px;
+}
+.dbms
+{
+    background-color: darkkhaki;
+    border-radius: 25px;
+}
+.kong
+{
+    font-size:45px;
+}
+.CN
+{
+    background-color:hotpink;
+    border-radius: 25px;
+}
+.SE
+{
+    background-color: lawngreen;
+    border-radius: 25px;
+}
+.DSS
+{
+    background-color: rgb(172, 47, 255);
+    border-radius: 25px;
+}
+.CNLAB
+{
+    background-color:tomato;
+    border-radius: 25px;
+}
+.UHV
+{
+    background-color: rgb(119, 80, 212);
+    border-radius: 25px;
+}
+.PST
+{
+    background-color: rgb(163, 0, 114);
+    border-radius: 25px;
+} 
 .mp
 {
     background-color:#3f51b1;
